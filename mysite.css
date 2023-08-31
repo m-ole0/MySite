@@ -58,3 +58,179 @@ nav{
   font-size: 20px;
   margin-top: 10px;
 }
+
+.portfolio{
+  background-color: #ECEFF1;
+  width: 100%;
+}
+
+.portfolio-container{
+  width: 920px;
+  margin: 0 auto;
+}
+
+.portfolio-top{
+  padding-top: 90px;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+}
+
+
+.portfolio-top::after{
+  content: "";
+  display: block;
+  background-color:#EC715F;
+  height: 3px;
+  width: 70px;
+  margin: 8px auto 30px auto;
+}
+
+.portfolio-top-message{
+  font-size: 16px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.portfolio-image{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-content{
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-1{
+  background-image: url(img/sketch.jpg);
+}
+
+.bg-2{
+  background-image: url(img/websuku.png);
+}
+
+.bg-3{
+  background-image: url(img/write.jpg);
+}
+
+.bg-4{
+  background-image: url(img/webcamp.png);
+}
+
+.bg-5{
+  background-image: url(img/talk.jpg);
+}
+
+.bg-6{
+  background-image: url(img/webcamp-mother.png);
+}
+
+.portfolio-content:nth-child(2),
+.portfolio-content:nth-child(5){
+  margin: 0 10px;
+}
+
+.portfolio-content:nth-child(4),
+.portfolio-content:nth-child(5),
+.portfolio-content:nth-child(6){
+  margin-top: 10px;
+  margin-bottom: 90px;
+}
+
+.feature{
+  width: 100%;
+}
+
+.feature-container{
+  width:980px;
+  margin: 0 auto;
+}
+
+.feature-top{
+  font-size: 32px;
+  text-align: center;
+  margin-top: 90px;
+  color: #000000;
+}
+
+.feature-top::after{
+  content: "";
+  display: block;
+  background-color: #EC715F;
+  height: 3px;
+  width: 70px;
+  margin: 8px auto 30px auto;
+}
+
+.feature-message{
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.feature-content{
+  display: flex;
+}
+
+.feature-content-box{
+  width: 320px;
+  height: auto;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.feature-content-box:nth-child(2){
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.feature-content-box i{
+  font-size: 60px;
+}
+
+.feature-content-box h4{
+  font-size: 20px;
+  margin: 10px 0 10px 0;
+}
+
+.feature-content-box p{
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+.profile{
+  background-color: #ECEFF1;
+  width: 100%;
+}
+
+.profile-container{
+  width:1024px;
+  padding-top: 90px;
+}
+
+.profile-top{
+  text-align: center;
+  font-size: 32px;
+  color: #000000;
+}
+
+.profile-top::after{
+  content: "";
+  display: block;
+  height: 3px;
+  width: 70px;
+  background-color: #EC715F;
+  margin: 8px auto 30px auto;
+}
+
+.profile-message{
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 30px;
+}

@@ -211,6 +211,7 @@ nav{
 .profile-container{
   width:1024px;
   padding-top: 90px;
+  margin: 0 auto;
 }
 
 .profile-top{
@@ -233,4 +234,113 @@ nav{
   font-size: 16px;
   color: #000000;
   margin-bottom: 30px;
+}
+
+.profile-content{
+  display: flex;
+  text-align: center;
+  padding-bottom: 90px;
+}
+
+.profile-image{
+  width: 512px;
+}
+
+.profile-image img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+
+.profile-explanation{
+  width: 512px;
+  text-align:left;
+}
+
+.profile-name,
+.profile-skills{
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.profile-skills{
+  margin-top: 20px;
+}
+
+.contact{
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.contact-container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.contact-top{
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+}
+
+.contact-top::after{
+  content: "";
+  display: flex;
+  background-color: #EC715F;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 30px auto;
+}
+
+.contact-message{
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.contact-content{
+  display:flex;
+}
+
+.contact-address{
+  width: 50%;
+}
+
+.contact-address-content{
+  width: 130px;
+  margin: 0 auto;
+}
+
+
+.contact-sns{
+  width: 50%;
+  display: flex;
+}
+
+.contact-sns-content{
+  width: 180px;
+  margin: 0 auto;
+}
+
+.contact-mail,
+.contact-tel,
+.contact-sns{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.contact-tel{
+  margin-top: 20px;
+}
+
+.contact-sns i{
+  font-size: 50px;
+}
+
+.contact-sns .fa-twitter{
+  margin: 0 20px;
 }
